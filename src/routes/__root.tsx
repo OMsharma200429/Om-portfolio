@@ -7,10 +7,10 @@ import {
   useRouter,
 } from "@tanstack/react-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { useEffect, type ReactNode } from "react";
+import { type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
+
 
 function NotFoundComponent() {
   return (
@@ -42,11 +42,7 @@ function ErrorComponent({
 
   const router = useRouter();
 
-  useEffect(() => {
-    reportLovableError(error, {
-      boundary: "tanstack_root_error_component",
-    });
-  }, [error]);
+  
 
   return (
     <div className="min-h-screen bg-[#0C0C0C] text-white flex flex-col items-center justify-center text-center px-6">
