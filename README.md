@@ -99,3 +99,37 @@ Hero
 ├── Experience
 ├── Contact
 └── Resume
+
+---
+
+## 🖥️ Portfolio Preview
+
+### 🏠 Hero
+
+<p align="center">
+  <img src="public/portfolio-hero.png" alt="Om Sharma Portfolio Hero" width="100%">
+</p>
+
+### 🛠️ Skills
+
+<p align="center">
+  <img src="public/portfolio-skills.png" alt="Portfolio Skills" width="100%">
+</p>
+
+### 🚀 Projects
+
+<p align="center">
+  <img src="public/portfolio-projects.png" alt="Portfolio Projects" width="100%">
+</p>
+
+### 🏆 Achievements
+
+<p align="center">
+  <img src="public/portfolio-achievements.png" alt="Portfolio Achievements" width="100%">
+</p>
+
+### 💼 Experience
+
+<p align="center">
+  <img src="public/portfolio-experience.png" alt="Portfolio Experience" width="100%">
+</p>
