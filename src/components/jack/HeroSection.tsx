@@ -21,6 +21,7 @@ import { useMouseParallax } from "@/hooks/use-mouse-parallax";
 
 const NAV = [
   "About",
+  "Education",
   "Skills",
   "Projects",
   "Achievements",
@@ -289,7 +290,7 @@ export function HeroSection() {
             </motion.div>
           </FadeIn>
         </motion.div>
-      </motion.div>
+      </motion.div>         
 
 
       <motion.div
