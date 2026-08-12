@@ -280,7 +280,7 @@ export function HeroSection() {
                 </motion.a>
               </Magnet>
               <Magnet strength={4}>
-                <motion.a href="#" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.045, y: -2 }} whileTap={{ scale: 0.97 }} transition={{ type: "spring", stiffness: 340, damping: 20 }}
+                <motion.a href="/resume/OM_SHARMA_Resume.pdf" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.045, y: -2 }} whileTap={{ scale: 0.97 }} transition={{ type: "spring", stiffness: 340, damping: 20 }}
                   className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-white font-medium uppercase tracking-wider text-sm glass hover:bg-white/10 transition-colors"
                   style={{ boxShadow: "inset 0 1px 0 rgba(255,255,255,0.18)" }}>
                   <Download size={16} /> Download Resume
