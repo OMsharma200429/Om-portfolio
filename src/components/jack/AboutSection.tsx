@@ -74,7 +74,7 @@ export function AboutSection() {
         </div>
 
         <FadeIn y={20} delay={0.3} className="mt-14 flex justify-center">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-white font-medium uppercase tracking-wider text-sm glow"
+          <a href="/resume/OM_SHARMA_Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-white font-medium uppercase tracking-wider text-sm glow"
              style={{ background: "linear-gradient(120deg, #7C3AED, #A855F7)" }}>
             <Download size={16} /> Resume
           </a>
